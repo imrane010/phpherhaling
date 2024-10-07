@@ -2,12 +2,25 @@
 
 class Product
 {
-
+   public $name = "een bepaald spel";
 }
 
+$game1 = new Product();
+$game1->name = "Fifa23";
 
-$chair1 = new Product();
-$chair2 = new Product();
+$game2 = new Product();
+$game2->name = "fortnite";
 
-var_dump($chair1);
-var_dump($chair2)
+$game3 = new Product();
+
+
+var_dump($game1);
+var_dump($game2);
+
+
+echo $game1->name."<br>";
+echo $game2->name."<br>";
+echo $game3->name."<br>";
+
+$game1->name = "fifa22";
+echo $game1->name;
