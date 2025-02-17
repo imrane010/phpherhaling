@@ -1,0 +1,9 @@
+{
+    "name": "melod/opdr30-2",
+    "autoload": {
+        "psr-4": {
+            "Opdr300\\": "src/"
+        }
+    },
+    "require": {}
+}
